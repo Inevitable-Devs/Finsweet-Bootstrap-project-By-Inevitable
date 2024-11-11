@@ -1,0 +1,107 @@
+@media (max-width: 575.98px) { 
+
+    :root {
+        --primary_background_color: #1c1e53;
+        --white_color: #ffffff;
+        --gray_color: #EEF4FA;
+        --primary_font_color: #282938;
+        --yellow_color: #fcd980;
+      
+        --poppins: "Poppins", sans-serif;
+      }
+
+      .about__title {
+        font-size: 15px;
+    }
+
+    .banner_heading {
+        font-size: 22px;
+        line-height: 11px;
+    }
+
+    .banner_summary {
+        font-size: 12px;
+        line-height: 21px;
+    }
+
+    .goul__heading {
+        font-size: 13px;
+    }
+
+    .goul__title {
+        font-size: 24px;
+    }
+
+    .goul__summary {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .goulContent {
+        padding: 30px 30px 30px 30px;
+    }
+
+    .goul__title {
+        font-size: 19px;
+    }
+
+    #banner_about {
+        padding: 13px 0;
+    }
+
+    .follow__heading {
+        font-size: 23px;
+    }
+
+    .follow__title {
+        font-size: 20px;
+    }
+
+    .follow__summary {
+        font-size: 13px;
+    }
+
+    .img-fluid {
+        display: none;
+    }
+
+    .featureTop_summary {
+        font-size: 20px;
+        line-height: 0px;
+    }
+
+    #workingPart {
+        padding: 25px 0;
+    }
+
+    .featurebottom_heading {
+        font-size: 21px;
+    }
+
+    .featurebottom_summary {
+        font-size: 12px;
+    }
+
+    .featurebottom {
+        padding: 32px 17px 39px 37px;
+    }
+
+    .work_item {
+        font-size: 24px;
+    }
+
+    .work_details {
+        font-size: 13px;
+    }
+
+    #team {
+        padding: 12px 0;
+        display: none;
+    }
+
+    .custom {
+        font-size: 13px;
+    }
+
+
+ }

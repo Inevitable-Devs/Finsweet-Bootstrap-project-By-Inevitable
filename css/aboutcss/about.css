@@ -1,0 +1,538 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* ======== COMMON CSS START ======== */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a,
+span {
+  display: inline-block;
+}
+
+img {
+  vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+section,
+div,
+img,
+p,
+svg {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary_background_color: #1c1e53;
+  --white_color: #ffffff;
+  --gray_color: #EEF4FA;
+  --primary_font_color: #282938;
+  --yellow_color: #fcd980;
+
+  --poppins: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--poppins);
+}
+
+/* ======== COMMON CSS END ======== */
+
+/* -------------------- */
+
+.customLogo{
+  background: var(--primary_background_color);
+  padding: 15px 0;
+}
+
+.customnavitem{
+  font-weight: 500;
+  font-size: 16px;
+  color: #BBBBCB;
+  margin-left: 45px;
+  transition: all linear .4s;
+}
+
+.customnavitem:hover{
+  color: #fff;
+}
+
+.active{
+  color: #fff;
+}
+
+.custombtn{
+  padding: 16px 48px;
+  background: transparent;
+  border: 2px solid #F4F6FC;
+  outline: 0;
+  border-radius: 41px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  margin-left: 116px;
+  position: relative;
+  z-index: 1;
+}
+
+.custombtn::after{
+  position: absolute;
+  content: " ";
+  width: 0%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: ease-in-out .4s;
+  opacity: 0;
+  border-radius: 41px;
+}
+
+.custombtn:hover::after{
+  width: 100%;
+  background: #FCD980;
+  opacity: 1;
+}
+
+/* ------------------------ */
+#banner_about{
+  padding: 128px 0;
+  background: var(--white_color);
+}
+
+.about__title{
+  font-weight: 500;
+  font-size: 18px;
+  color: #282938;
+  margin-bottom: 8px;
+}
+
+.banner_heading{
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 74px;
+  color: #282938;
+  margin-bottom: 8px;
+}
+
+.banner_summary{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #282938;
+  margin: 24px 0 48px;
+}
+
+/* ---------------------- */
+
+#goul{
+  padding: 0 0 128px;
+  background: var(--white_color);
+}
+
+.goulContent{
+  padding: 80px 109px 80px 79px;
+  background: #F4F5F5;
+}
+
+.goul__heading{
+  font-weight: 500;
+  font-size: 16px;
+  color: #282938;
+}
+
+.goul__title{
+  font-weight: 600;
+  font-size: 38px;
+  color: #282938;
+  margin: 5px 0 16px;
+}
+
+.goul__summary{
+  font-weight: 400;
+  font-size: 16px;
+  color: #282938;
+  line-height: 28px;
+}
+
+/* --------------------- */
+
+#follow{
+  padding: 0 0 128px;
+  background: var(--white_color);
+}
+
+.follow__heading{
+  font-weight: 600;
+  font-size: 48px;
+  color: #282938;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.follow__title{
+  margin: 32px 0 8px;
+  font-weight: medium;
+  font-size: 24px;
+  color: #282938;
+}
+
+.follow__summary{
+  font-weight: 400;
+  font-size: 16px;
+  color: #282938;
+}
+
+/* --------------------- */
+
+#follow__part{
+  padding: 128px 0;
+  background: var(--gray_color);
+}
+
+.follow--modifier{
+  font-size: 38px;
+}
+/* --------------------- */
+
+#work{
+  padding: 128px 0;
+  background: #F4F6FC;
+}
+
+.work__heading{
+  font-weight: 600;
+  font-size: 48px;
+  color: var(--secoendary_font_colar);
+}
+
+.work__summary{
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--secoendary_font_colar);
+  line-height: 28px;
+  margin: 16px 0;
+}
+
+.work__icon{
+  font-weight: 500;
+  font-size: 18px;
+  color: #2405F2;
+}
+
+.right{
+  color: #2405F2;
+  margin-left: 10px;
+}
+
+.workright__heading{
+  font-weight: 500;
+  font-size: 32px;
+  color: var(--secoendary_font_colar);
+  line-height: 48px;
+  margin: 16px 0 8px;
+}
+
+.workright__summary{
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--secoendary_font_colar);
+  line-height: 28px;
+}
+
+/* ---------------------- */
+
+#project{
+  padding: 128px 0;
+  background: var(--background_color_white);
+}
+
+.projectTop__heading{
+  font-weight: 600;
+  font-size: 48px;
+  color: var(--secoendary_font_colar);
+}
+
+.projectTop__icon{
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--secoendary_font_colar);
+}
+
+.image{
+  position: relative;
+  cursor: grab;
+  overflow: hidden;
+}
+
+.projectoverlay{
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: -50%;
+  background: #c2c4d692;
+  transition: all linear .3s;
+  background-image: linear-gradient(1deg, rgba(28, 30, 83, 0.99), rgba(28, 30, 83, 0.40));
+}
+
+.image:hover .projectoverlay{
+  left: 0%;
+}
+
+.overlay__content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+  justify-content: flex-end;
+  padding: 0 55px 76px 48px;
+}
+
+.overlay_heading{
+  font-weight: 600;
+  font-size: 24px;
+  color: #fff;
+  line-height: 36px;
+}
+.overlay_summary{
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  line-height: 28px;
+  margin: 16px 0 40px;
+}
+
+.right--modifier{
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.content--modifier{
+  padding: 0 79px 56px 45px;
+}
+
+.overlay--modifier{
+  width: 100%;
+  left: -100%;
+}
+
+.heading--modifire{
+  margin-bottom: 8px;
+}
+
+/* -------------------- */
+
+#workingPart{
+  padding: 128px 0;
+  background: var(--white_color);
+}
+
+.featureTop_summary{
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  color: #282938;
+  margin-top: 10px;
+}
+
+.featurebottom{
+  padding: 58px 32px 48px 48px;
+  background: var(--gray_color);
+}
+
+.featurebottom_heading{
+  font-weight: 500;
+  font-size: 24px;
+  color: #282938;
+  margin-top: 22px;
+}
+
+.featurebottom_summary{
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 12px;
+  color: #282938;
+  line-height: 28px;
+}
+
+.work_item{
+  font-weight: 600;
+  font-size: 38px;
+  color: #282938;
+}
+
+.work_details{
+  font-weight: 400;
+  font-size: 16px;
+  color: #282938;
+}
+
+/* ------------------- */
+
+#team{
+  padding: 128px 0;
+  background: var(--gray_color);
+}
+
+.team__heading{
+  font-weight: 600;
+  font-size: 48px;
+  color: #282938;
+}
+
+.teambox{
+  max-width: 296px;
+  height: 344px;
+  background: #ffffff;
+  transition: all linear .5s;
+}
+
+.elepsbox{
+  height: 168px;
+  width: 168px;
+  position: relative;
+  z-index: 1;
+  padding: 48px 64px 0 64px;
+}
+
+.teamOverlay {
+  position: absolute;
+  top: 29%;
+  left: 38%;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.teambox:hover .elepsbox .teamOverlay{
+  background-image: linear-gradient(1deg, rgba(28, 30, 83, 1.90), rgba(28, 30, 83, 0.0));
+}
+
+.team_icon{
+  margin-top: 127px;
+  text-align: center;
+  opacity: 0;
+  transition: all linear .5s;
+}
+
+.teambox:hover .elepsbox .team_icon {
+  opacity: 1;
+}
+
+.team_icon a i{
+  color: #fff;
+  margin: 0 5px;
+}
+
+.text{
+  margin-top: 70px;
+  text-align: center;
+}
+
+.teambox_heading{
+  font-weight: 500;
+  font-size: 24px;
+  color: #1D2130;
+}
+
+.teambox_summary{
+  font-weight: 400;
+  font-size: 16px;
+  color: #282938;
+  margin-top: 10px;
+}
+/* ------------------- */
+
+footer{
+  padding: 96px 0 0;
+  background: var(--primary_background_color);
+}
+
+.fotter__sumary{
+  max-width: 399px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--gray_color);
+  margin-top: 20px;
+}
+
+.foter__botom{
+  background: #FCD980;
+  margin-top: 86px;
+  padding: 14px 0px 14px 30px;
+}
+
+.footerBotom{
+  font-weight: 500;
+  font-size: 16px;
+  color: #282938;
+}
+.footerBotom_summary{
+  font-weight: 400;
+  font-size: 16px;
+  color: #282938;
+  margin-top: 8px;
+}
+
+.foterRight{
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  color: #fff;
+}
+
+.summary--modifier{
+  font-weight: 400;
+  margin-top: 14px;
+}
+
+.icon{
+  margin-top: 100px;
+}
+
+.icon--modifier{
+  margin-top: 10px;
+}
+
+.icon i{
+  color: #fff;
+  margin-right: 26px;
+}
+
+/* -------------------- */
+
+.custom{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #282938;
+}
+
+.customnavitam{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #282938;
+}
+
+/* ---------------------- */
+
