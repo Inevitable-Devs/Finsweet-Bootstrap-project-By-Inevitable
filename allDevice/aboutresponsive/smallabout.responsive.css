@@ -1,0 +1,52 @@
+@media (max-width: 767.98px) { 
+
+    :root {
+        --primary_background_color: #1c1e53;
+        --white_color: #ffffff;
+        --gray_color: #EEF4FA;
+        --primary_font_color: #282938;
+        --yellow_color: #fcd980;
+      
+        --poppins: "Poppins", sans-serif;
+      }
+
+      .banner_heading {
+        font-size: 36px;
+        line-height: 30px;
+    }
+
+    .goul__title {
+        font-size: 31px;
+    }
+
+    .follow__heading {
+        font-size: 35px;
+    }
+
+    #goul {
+        padding: 0 0 30px;
+    }
+
+    #follow {
+        padding: 0 0 40px;
+    }
+
+    .summary--modifier {
+        display: block;
+    }
+
+    #follow__part {
+        padding: 14px 0;
+    }
+
+    .team__heading {
+        font-size: 36px;
+    }
+
+    .foterRight {
+        font-size: 16px;
+    }
+
+    
+
+ }

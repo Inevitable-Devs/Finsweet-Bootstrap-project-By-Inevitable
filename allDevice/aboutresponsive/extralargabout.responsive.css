@@ -1,0 +1,102 @@
+@media (max-width: 1399.98px) { 
+    :root {
+        --primary_background_color: #1c1e53;
+        --white_color: #ffffff;
+        --gray_color: #EEF4FA;
+        --primary_font_color: #282938;
+        --yellow_color: #fcd980;
+      
+        --poppins: "Poppins", sans-serif;
+      }
+
+      #banner_about {
+        padding: 80px 0;
+    }
+
+    .banner_heading {
+        font-size: 51px;
+        line-height: 64px;
+        margin-bottom: 5px;
+    }
+
+    .banner_summary {
+        font-size: 15px;
+        line-height: 26px;
+        color: #282938;
+    }
+
+    .goul__title {
+        font-size: 34px;
+    }
+
+    .goul__summary {
+        font-size: 15px;
+        line-height: 27px;
+    }
+
+    #goul {
+        padding: 0 0 80px;
+    }
+
+    .follow__heading {
+        font-size: 44px;
+    }
+
+    #follow__part {
+        padding: 100px 0;
+    }
+
+    .banner_heading {
+        font-size: 45px;
+        line-height: 60px;
+    }
+
+    .banner_summary {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    #workingPart {
+        padding: 90px 0;
+    }
+
+    .featureTop_summary {
+        font-size: 46px;
+        line-height: 54px;
+    }
+
+    #team {
+        padding: 80px 0;
+    }
+
+    .team__heading {
+        font-size: 46px;
+    }
+
+    .elepsbox {
+        padding: 48px 64px 0 45px;
+    }
+
+    .teambox_heading {
+        font-size: 20px;
+    }
+
+    .teamOverlay {
+        left: 27%;
+    }
+
+    .foterRight {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .fotter__sumary {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .icon i {
+        margin-right: 20px;
+    }
+
+}
