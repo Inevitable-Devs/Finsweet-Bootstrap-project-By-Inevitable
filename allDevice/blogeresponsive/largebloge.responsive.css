@@ -1,0 +1,51 @@
+@media (max-width: 1199.98px) { 
+    :root {
+        --primary_background_color: #1c1e53;
+        --white_color: #ffffff;
+        --gray_color: #bbbbcb;
+        --primary_font_color: #282938;
+        --yellow_color: #fcd980;
+      
+        --poppins: "Poppins", sans-serif;
+      }
+
+    .custombtn {
+        margin-left: 29px;
+    }
+
+    #bannerPart {
+        padding: 80px 0 40px;
+    }
+
+    .banner__heading {
+        font-size: 42px;
+        line-height: 53px;
+    }
+
+    .banner__summary {
+        font-size: 15px;
+        line-height: 21px;
+        margin-bottom: 30px;
+    }
+
+    .lorem__heading {
+      font-size: 26px;
+      line-height: 25px;
+      margin-bottom: 19px;
+    }
+
+        .lorem__summary {
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+        #nostrud {
+        padding: 0 0 70px;
+    }
+
+    .foterRight {
+        font-size: 45px;
+    }
+
+
+ }

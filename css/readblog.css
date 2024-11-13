@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* ======== COMMON CSS START ======== */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a,
+span {
+  display: inline-block;
+}
+
+img {
+  vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+section,
+div,
+img,
+p,
+svg {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary_background_color: #1c1e53;
+  --white_color: #ffffff;
+  --gray_color: #bbbbcb;
+  --primary_font_color: #282938;
+  --yellow_color: #fcd980;
+
+  --poppins: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--poppins);
+}
+
+/* ======== COMMON CSS END ======== */
+
+
+.customLogo{
+  background: var(--primary_background_color);
+  padding: 15px 0;
+}
+
+.customnavitem{
+  font-weight: 500;
+  font-size: 16px;
+  color: #BBBBCB;
+  margin-left: 45px;
+  transition: all linear .4s;
+}
+
+.customnavitem:hover{
+  color: #fff;
+}
+
+.active{
+  color: #fff;
+}
+
+.custombtn{
+  padding: 16px 48px;
+  background: transparent;
+  border: 2px solid #F4F6FC;
+  outline: 0;
+  border-radius: 41px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  margin-left: 116px;
+  position: relative;
+  z-index: 1;
+}
+
+.custombtn::after{
+  position: absolute;
+  content: " ";
+  width: 0%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: ease-in-out .4s;
+  opacity: 0;
+  border-radius: 41px;
+}
+
+.custombtn:hover::after{
+  width: 100%;
+  background: #FCD980;
+  opacity: 1;
+}
+
+/* ---------------------- */
+
+#bannerPart{
+  padding: 128px 0 48px;
+  background: var(--white_color);
+}
+
+.banner__heading {
+  max-width: 845px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  color: #282938;
+  margin-bottom: 10px;
+}
+
+.banner__heading:first-child{
+  text-align: center;
+}
+
+.banner__summary{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #282938;
+  margin-bottom: 48px;
+}
+
+/* ------------------- */
+
+  #lorem{
+    padding: 0 0 40px;
+    background: var(--white_color);
+  }
+
+  .lorem__heading{
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    color: #1C1E53;
+    margin-bottom: 28px;
+  }
+
+  .lorem__summary{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+  }
+
+  #veniam{
+    padding: 0 0 40px;
+    background: var(--white_color);
+  }
+
+  .summary--modifier{
+    margin-bottom: 24px;
+  }
+
+  i[class="fa-solid fa-circle"]{
+    margin-right: 5px;
+  }
+
+  .lorem__text{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      color: #282938;
+      margin: 12px 0;
+  }
+
+  .lorem--modifier{
+      margin-top: 24px;
+      margin-bottom: 32px;
+  }
+
+  span{
+    color: #2405F2;
+  }
+
+  #nostrud{
+    padding: 0 0 128px;
+    background: var(--white_color);
+  }
+
+/* ------------------- */
+
+footer{
+  padding: 96px 0 0;
+  background: var(--primary_background_color);
+}
+
+.fotter__sumary{
+  max-width: 399px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.foter__botom{
+  background: #FCD980;
+  margin-top: 86px;
+  padding: 14px 0px 14px 30px;
+}
+
+.footerBotom{
+  font-weight: 500;
+  font-size: 16px;
+  color: #282938;
+}
+.footerBotom_summary{
+  font-weight: 400;
+  font-size: 16px;
+  color: #282938;
+  margin-top: 8px;
+}
+
+.foterRight{
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  color: #fff;
+}
+
+.icon{
+  margin-top: 100px;
+}
+
+.icon i{
+  color: #fff;
+  margin-right: 26px;
+}
+
+/* -------------------- */
+
+.custom{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #282938;
+}
+
+.customnavitam{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #282938;
+}

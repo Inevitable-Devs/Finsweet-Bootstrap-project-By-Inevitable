@@ -1,0 +1,98 @@
+@media (max-width: 991.98px) { 
+
+    :root {
+        --primary_background_color: #1c1e53;
+        --white_color: #ffffff;
+        --gray_color: #bbbbcb;
+        --primary_font_color: #282938;
+        --yellow_color: #fcd980;
+      
+        --poppins: "Poppins", sans-serif;
+      }
+
+      .navbar-toggler:focus {
+        box-shadow: none;
+        border: 1px white dashed;
+    }
+
+    .customnavitem {
+        margin-left: 0px;
+    
+    }
+
+    .custombtn {
+        padding: 10px 20px;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    #bannerPart {
+        padding: 47px 0 30px;
+    }
+
+    .banner__heading {
+        font-size: 35px;
+        line-height: 41px;
+    }
+
+    .banner__summary {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 20px;
+    }
+
+    .lorem__heading {
+        font-size: 24px;
+        line-height: 15px;
+        margin-bottom: 15px;
+    }
+
+    .lorem__summary {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    #lorem {
+        padding: 0 0 30px;
+    }
+
+    .lorem__text {
+        font-size: 15px;
+        line-height: 22px;
+        margin: 5px 0;
+    }
+
+    #nostrud {
+        padding: 0 0 40px;
+    }
+
+    footer {
+        padding: 50px 0 0;
+    }
+
+    .icon {
+        margin-top: 0px;
+    }
+
+    .foter__botom {
+        margin-top: 40px;
+    }
+
+    .foterRight {
+        font-size: 35px;
+    }
+
+    .footer__right{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .icon i {
+        margin-left: 26px;
+        margin-right: 0;
+    }
+
+
+
+ }
