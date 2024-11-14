@@ -1,0 +1,78 @@
+@media (max-width: 991.98px) {
+  :root {
+    --primary_background_color: #1c1e53;
+    --secondary_background_color: #f4f6fc;
+    --primary_font_color: #282938;
+    --secondary_font_color: #bbbbcb;
+    --yellow_color: #fcd980;
+    --transition: all 0.4s linear;
+  }
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+    background-color: var(--yellow_color);
+  }
+  .fa-bars {
+    color: white;
+  }
+  .custom-navbarNav {
+    gap: 0;
+    background-color: #fff;
+    padding: 16px 0;
+    border-radius: 8px;
+    margin-top: 12px;
+  }
+  .customNavItem {
+    background-color: transparent;
+    border-bottom: 1px solid #2829383b;
+    display: block;
+    padding: 10px 20px;
+    transition: var(--transition);
+  }
+  .customNavItem:nth-child(6) {
+    border-bottom: 0px solid #2829383b;
+  }
+  .customNavItem:hover {
+    background-color: var(--yellow_color);
+  }
+  .customNavLink {
+    color: var(--primary_font_color);
+  }
+  .customNavLink:hover {
+    color: var(--primary_font_color);
+  }
+  .customBtn {
+    margin-top: 16px;
+    color: white;
+    border: 2px solid transparent;
+    background-color: var(--primary_background_color);
+    margin-left: 20px;
+  }
+  .customNavLink:hover::after {
+    width: 0;
+  }
+  .footerLeft__contact {
+    margin-top: 16px;
+    padding: 17px 10px;
+  }
+  .contact__info {
+    font-size: 15px;
+  }
+  .contact__title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .customFooter-navbarNav {
+    gap: 0;
+  }
+  .footerItem {
+    border-bottom: 1px solid #2829383b;
+  }
+  .footerItem:last-child {
+    border-bottom: 0px solid #2829383b;
+  }
+  .footerItem:hover {
+    background-color: var(--yellow_color);
+  }
+}
