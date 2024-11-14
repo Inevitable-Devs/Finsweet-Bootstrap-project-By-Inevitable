@@ -1,0 +1,26 @@
+@media (max-width: 1199.98px) {
+  :root {
+    --primary_background_color: #1c1e53;
+    --secondary_background_color: #f4f6fc;
+    --primary_font_color: #282938;
+    --secondary_font_color: #bbbbcb;
+    --yellow_color: #fcd980;
+    --transition: all 0.4s linear;
+  }
+  .clientService__title {
+    font-size: 20px;
+  }
+  .keyBtn_title {
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .contact__info {
+    font-size: 13px;
+    line-height: 24px;
+    opacity: 0.9;
+  }
+  .contact__title {
+    font-size: 17px;
+    line-height: 28px;
+  }
+}

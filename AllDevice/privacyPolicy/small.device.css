@@ -1,0 +1,36 @@
+@media (max-width: 767.98px) {
+  :root {
+    --primary_background_color: #1c1e53;
+    --secondary_background_color: #f4f6fc;
+    --primary_font_color: #282938;
+    --secondary_font_color: #bbbbcb;
+    --yellow_color: #fcd980;
+    --transition: all 0.4s linear;
+  }
+  .privacyPolicy__subTitle {
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .footerTop {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .footerRight__title {
+    font-size: 40px;
+    line-height: 30px;
+  }
+  .footerLeft__contact {
+    padding: 17px 16px;
+  }
+  .contact__info {
+    font-size: 13px;
+  }
+  .contact__title {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .footerRight__summary {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}

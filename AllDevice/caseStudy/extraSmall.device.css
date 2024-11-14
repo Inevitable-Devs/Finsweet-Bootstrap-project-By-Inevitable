@@ -1,0 +1,81 @@
+@media (max-width: 575.98px) {
+  :root {
+    --primary_background_color: #1c1e53;
+    --secondary_background_color: #f4f6fc;
+    --primary_font_color: #282938;
+    --secondary_font_color: #bbbbcb;
+    --yellow_color: #fcd980;
+    --transition: all 0.4s linear;
+  }
+  .designCaseStudy__subtitle {
+    font-size: 18px;
+  }
+  .designCaseStudy__title {
+    font-size: 30px;
+    line-height: 39px;
+  }
+  .designCaseStudy__summary {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .designCaseStudy__img {
+    padding: 22px 24px;
+  }
+  .clientService__title {
+    font-size: 15px;
+  }
+  #aboutPart {
+    margin-top: 28px;
+  }
+  .about__title {
+    font-size: 32px;
+    line-height: 37px;
+  }
+  .about__summary {
+    font-size: 15px;
+  }
+  .itemSummary {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  #howWeDo__part {
+    margin-top: 48px;
+    margin-bottom: 68px;
+  }
+  .howWeDo__keyBtn {
+    gap: 15px;
+  }
+  .contactBtn__title {
+    font-size: 26px;
+    line-height: 35px;
+  }
+  .contactBtn__summary {
+    font-size: 14px;
+    line-height: 23px;
+  }
+  #contactBtn__part {
+    margin-bottom: 44px;
+  }
+  .footerLeft__contact {
+    padding: 11px 16px;
+  }
+  .footerLeft__summary {
+    font-size: 13px;
+    line-height: 19px;
+  }
+  .footerRight__icon {
+    margin-top: 14px;
+    gap: 19px;
+  }
+  .footerRight__title {
+    font-size: 34px;
+    line-height: 15px;
+  }
+  .footerRight__summary {
+    font-size: 13px;
+    line-height: 19px;
+  }
+  .customFooter-sticky {
+    padding: 10px 0;
+  }
+}

@@ -1,0 +1,32 @@
+@media (max-width: 575.98px) {
+  :root {
+    --primary_background_color: #1c1e53;
+    --secondary_background_color: #f4f6fc;
+    --primary_font_color: #282938;
+    --secondary_font_color: #bbbbcb;
+    --yellow_color: #fcd980;
+    --transition: all 0.4s linear;
+  }
+  .footerLeft__contact {
+    padding: 11px 16px;
+  }
+  .footerLeft__summary {
+    font-size: 13px;
+    line-height: 19px;
+  }
+  .footerRight__icon {
+    margin-top: 14px;
+    gap: 19px;
+  }
+  .footerRight__title {
+    font-size: 34px;
+    line-height: 15px;
+  }
+  .footerRight__summary {
+    font-size: 13px;
+    line-height: 19px;
+  }
+  .customFooter-sticky {
+    padding: 10px 0;
+  }
+}
